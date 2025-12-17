@@ -12,19 +12,19 @@ function useDeleteProduct() {
 
         try {
             const response = await fetch (`${API_URL}/products/${String(productId)}`, {
-                method: "DELETE"
-            //     headers:{
-            //     "Content-Type": "application/json"
-            // }
+                method: "DELETE",
+                headers:{
+                "Content-Type": "application/json"
+            }
             })
 
             if (!response.ok) {
                 throw new Error (`Error al eliminar el producto, ${response.status}`)
             }
 
-            // const data = await response.json()
+            const data = await response.json()
 
-            return true //data
+            return data //true
 
         } catch (error) {
             console.error(error)

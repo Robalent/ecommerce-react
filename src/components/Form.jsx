@@ -14,6 +14,7 @@ function Form() {
     const handleSubmit = (e) => {
       e.preventDefault();
 
+      // validaciones
       if(!name || name.trim() === "" || !isNaN(name)) {
         console.log ("El nombre debe contener un valor correcto")
         return
@@ -50,7 +51,7 @@ function Form() {
           term
         }
       ])
-
+      // muestra los datos enviados por consola
        
     }
 

@@ -3,15 +3,25 @@
 Proyecto ficticio realizado con react para un e-commerce de merchandising. 
 Es totalmente adaptable a cualquier tipo de emprendimiento que necesite mostrar productos, gestionar un catálogo y ofrecer una experiencia visual simple y moderna. 
 
-Este sistema cuenta con dos secciones principales: 
-Sección 1: Sitio web para los clientes, donde estos podrán ver todo lo que ofrece la página, el catálogo de productos y comunicarse a través de un formulario.
-Sección 2: Panel para el administrador. En esta sección encontrará dos accesos, el primero será para cargar nuevos productos que luego se mostrarán en el sitio web de los clientes y el segundo acceso será donde podrá editar y eliminar los productos cargados.  
+El sistema cuenta con dos secciones principales:
 
-(Para ingresar al panel del administrador deberá poder en la barra de navegación junto al localhost /PanelAdmin)
+🛍️ Sitio web para clientes
+Los usuarios pueden:
+-Visualizar el catálogo completo de productos
+-Conocer el contenido del sitio
+-Comunicarse a través de un formulario de contacto
+
+🛠️ Panel de administración
+Pensado para la gestión interna del sitio. Incluye:
+-Acceso para cargar nuevos productos, que se reflejan automáticamente en el sitio web
+-Acceso para editar y eliminar productos existentes
+
+📌 Para ingresar al panel de administración, acceder desde la barra de navegación a:
+/PanelAdmin (sobre el localhost)
 
 🔧 Tecnologías usadas
 -React
--Css
+-Css y html
 -Bootstrap
 
 🔐 Variable de entorno

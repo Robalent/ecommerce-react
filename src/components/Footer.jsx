@@ -11,7 +11,7 @@ export default function Footer() {
                     <Link to="/"> Inicio</Link>
                 </li>
                 <li>
-                    <Link to="/#galeria">Galería</Link> {/* Ver cómo hacerlo dentro de la misma página */}
+                    <Link to="/#galeria">Galería</Link> 
                 </li>
                 <li>
                     <Link to="/catalogo">Catálogo</Link>

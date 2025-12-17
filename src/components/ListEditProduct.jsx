@@ -26,9 +26,6 @@ function ListEditProduct() {
       const success = await deleteProduct(productId)
 
       if (success) {
-        // setProducts(prev =>
-        //   prev.filter(product => String(product.id) !== String(productId))
-        // )
         window.location.reload()
       }
     }
@@ -43,6 +40,7 @@ function ListEditProduct() {
     <div>
       <h1 className='gluten-uniquifier'>Editar Productos</h1>
       <button onClick={() => navigate(`/PanelAdmin`) } className='courier-prime-regular'>Volver</button>
+      
       <div className='card-container'>
         {products.map((p) => (
         <div key={p.id} className='card-edit'>
@@ -62,4 +60,3 @@ function ListEditProduct() {
 }
 
 export default ListEditProduct
-

@@ -32,7 +32,7 @@ export default function Header() {
             </Link>
           </li>
           <li>
-            <Link to= "/" onClick={scroll}>Galería</Link> {/* Ver cómo hacerlo dentro de la misma página */}
+            <Link to= "/" onClick={scroll}>Galería</Link> 
           </li>
           <li>
             <Link to="/catalogo">Catálogo</Link>

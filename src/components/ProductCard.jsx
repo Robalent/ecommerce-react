@@ -19,6 +19,5 @@ export default function ProductCard({product, handleEditproduct}) {
     </div>
   )
 }
-
-// onClick={(e)=> handleEditproduct(e, product.id)} 
+ 
 // En este archivo creamos la card de cada producto

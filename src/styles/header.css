@@ -1,0 +1,96 @@
+/*GENERAL*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #fff7e3c4;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none; /*eliminamos los subrayados de los enlaces*/
+    color: black;
+}
+
+li{
+    list-style: none;
+}
+
+/*HEADER*/
+header{
+    background-color: #fff7e3c4;
+}
+
+header nav a img{
+    width: 120px;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 60px;
+    box-shadow: 5px 5px 4px rgba(131, 131, 131, 0.759);
+    padding: 20px 70px;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+}
+
+header nav ul a{
+    color: #DB007D;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+header nav ul a:hover{
+    color: #f8d030;
+    font-weight: bold;
+}
+
+/*RESPONSIVE HASTA 680PX*/
+
+@media screen and (max-width: 1246px) and (min-width: 1000px) {
+    header nav{
+        width: 105%;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 900px){
+    
+    header nav a img{
+    width: 100px;
+    }
+
+    header nav{
+        width: 106%;
+    }
+
+    header nav ul{
+        gap: 40px;
+    }
+
+}
+
+@media screen and (max-width:900px) and (min-width:600px){
+    header nav a img{
+    width: 100px;
+    }
+
+    header nav ul li:first-child{
+    display: none;
+    }
+
+    header nav{
+        width: 118%;
+    }
+
+    header nav ul{
+        gap: 40px;
+    }
+}

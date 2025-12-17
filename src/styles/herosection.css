@@ -1,0 +1,36 @@
+/*PORTADA*/
+.portada{
+  margin: 35px;
+  padding: 20px;
+}
+
+.portada img{
+  width: 90vw;
+  border-radius: 40px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.portada-txt{
+  margin: 30px;
+}
+
+h2{
+  margin: 10px;
+  margin-left: 70px;
+}
+
+#preg-index{
+  color: black;
+  margin-left: 100px;
+}
+
+h1{
+  text-align: center;
+  margin-left: 30px;
+}
+
+span{
+  color: #DB007D;
+  font-style: italic;
+}

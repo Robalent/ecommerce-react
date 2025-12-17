@@ -1,0 +1,31 @@
+.finger-paint-regular {
+  font-family: "Finger Paint", sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 10rem;
+}
+
+.error-container {
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;     
+  text-align: center;
+}
+
+.btn-back{
+  border-radius: 5px;
+  border: none;
+  background-color: #DB007D;
+  color: white;
+  width: 160px;
+  height: 40px;
+  align-content: center;
+}
+
+.btn-back:hover{
+  background-color: #f8d030;
+  color: #DB007D;
+  border-color: #f8d030;
+} 
